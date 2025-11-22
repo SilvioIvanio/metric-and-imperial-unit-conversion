@@ -48,6 +48,7 @@ h1 {
 #conversion-btn:hover {
     background-color: #B295FF;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .conversion-container{
