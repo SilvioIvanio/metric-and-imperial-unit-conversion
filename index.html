@@ -3,29 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <!-- Import Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="styles.css">
     <title>Unit Conversion</title>
 </head>
 <body>
     <div id="header">
-        <h1>Metric/Imperial Unit Conversion</h1>
-        <div id="num-input"></div>
-        <button id="convert-btn">Convert</button>
+        <h1 id="title">Metric/Imperial Unit Conversion</h1>
+        <input type="number" id="num-input" placeholder="0">
+        <button id="conversion-btn">Convert</button>
     </div>
 
-    <div id="conversion-container">
-        <div class="conversion">
-            Length (Meter/Feet)
-            <div id="meter-feet"></div>
+    <div id="conversion-section">
+        <div class="conversion-container">
+            <h2>Length (Meter/Feet)</h2>
+            <div class="conversion" id="meter-feet"></div>
         </div>
         
-        <div class="conversion">
-            Volume (Liters/Gallons)
-            <div id="liter-gallon"></div>
+        <div class="conversion-container">
+            <h2>Volume (Liters/Gallons)</h2>
+            <div class="conversion" id="liter-gallon"></div>
         </div>
         
-        <div class="conversion">
-            Mass (Kilograms/Pounds)
-            <div id="kilogram-pound"></div>
+        <div class="conversion-container">
+            <h2>Mass (Kilograms/Pounds)</h2>
+            <div class="conversion" id="kilogram-pound"></div>
         </div>
     </div>
 </body>

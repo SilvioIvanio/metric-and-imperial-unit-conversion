@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    background-color: #F4F4F4;
+}
+
+h1 {
+    margin: 0;
+}
+
+#header {
+    margin: 0;
+    background-color: #6943FF;
+    color: #FFFFFF;
+    padding: 34px 0;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#num-input {
+    width: 117px;
+    height: 83px;
+    background-color: inherit;
+    color: inherit;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-size: 58px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 15px;
+}
+
+#conversion-btn {
+    background-color: #FFFFFF;
+    color: #3D3D3D;
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+#conversion-btn:hover {
+    background-color: #B295FF;
+    color: #FFFFFF;
+}
+
+.conversion-container{
+    background-color: #FFFFFF;
+    height: 160px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conversion-container h2 {
+    color: #5A537B;
+    font-size: 25px;
+}
+
+.conversion-container .conversion {
+    color: #353535;
+    font-size: 20px;
+}
+
